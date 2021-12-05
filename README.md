@@ -11,3 +11,7 @@ Minimal OPL3 compatible 8 bit ISA board
 Minimal 512 KB 8 bit ISA RAM board
 
 ![MEM](https://user-images.githubusercontent.com/42321684/144759871-59b407a0-5ece-4554-90c9-b33ca91566dd.jpg)
+
+Control 8 bit ISA devices through passive backplane using Raspberry Pi (MEMW/MEMR/IOW/IOR are supported, no IRQ or DMA)
+
+![RPI2ISA](https://user-images.githubusercontent.com/42321684/144759950-11325024-2807-4f16-9a60-fc590ecc4111.jpg)
