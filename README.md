@@ -2,7 +2,7 @@
 
 Minimal 8088 8 bit ISA board
 
-This board is slightly custom, INTAK and INT have been routing through DRQ2 and DACK2 to allow external PIC-board in the BUS, also HLDA and HOLD have been routed through DACK3 and DRQ3 to allow DMAC-board in the BUS (these mean that DMA channels 2 and 3 cannot be normally used). The board will boot when RESET jumper is connected being initially disconnected during power-up. There are 3 other jumpers for allowing operation with or without PIC and DMAC.
+This board is slightly custom, INTAK and INT have been routed through DRQ2 and DACK2 to allow external PIC-board in the BUS, also HLDA and HOLD have been routed through DACK3 and DRQ3 to allow DMAC-board in the BUS (these mean that DMA channels 2 and 3 cannot be normally used). The board will boot when RESET jumper is connected being initially disconnected during power-up. There are 3 other jumpers for allowing operation with or without PIC and DMAC.
 
 ![CPU](https://user-images.githubusercontent.com/42321684/147238715-266f36b0-4ccb-42ff-8c7d-9b58b71c59e4.jpg)
 
