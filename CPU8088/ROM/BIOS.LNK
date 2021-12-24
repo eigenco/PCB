@@ -1,0 +1,5 @@
+name bios.bin
+output raw
+file bios.obj
+file opldata.obj
+option nodefaultlibs
