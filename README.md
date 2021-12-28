@@ -30,7 +30,7 @@ Control 8 bit ISA devices through passive backplane using Raspberry Pi (14.31818
 
 ![RPI2ISA](https://user-images.githubusercontent.com/42321684/144759950-11325024-2807-4f16-9a60-fc590ecc4111.jpg)
 
-Board with 8259 Programmable Interrupt Controller and 8254 Programmable Interval Timer
+Board with 8259 Programmable Interrupt Controller and 8254 Programmable Interval Timer (these is wrong 74LS93 chip in place of 74LS92 in the picture as I didn't have 74LS92 available at the moment when I tested the board, 74LS93 is decade divider whereas this board requires octal divider so the PIT ran at slightly lower frequence in this test than normally).
 
 ![pic](https://user-images.githubusercontent.com/42321684/147551422-6c66e252-9479-47fd-a0d7-767247ee459f.jpg)
 
