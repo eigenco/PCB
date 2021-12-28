@@ -1,10 +1,10 @@
 # PCB
 
-WARNING! These boards are still very early models and likely contain bugs. They've been observed to work with 8 MHz 8088 with either no modification or with minor modification (like adding a pullup resistor) during the soldering stage, but be aware that they might not work directly "out of the box" for you or present a risk of something breaking.
+WARNING! These boards are still very early models and likely contain bugs. They've been observed to work with either no modification or with minor modification (like adding a pullup resistor) during the soldering stage, but be aware that they might not work directly "out of the box" for you or present a risk of something breaking.
 
 Minimal 8088 8 bit ISA board
 
-This board is slightly custom. Signals INTAK and INT have been routed through DRQ2 and DACK2 to allow external PIC-board in the BUS, equally HLDA and HOLD have been routed through DRQ3 and DACK3 to allow external DMAC-board in the BUS. These customizations mean that DMA channels 2 and 3 cannot be used normally. The board will boot when RESET jumper is connected being initially disconnected during power-up. There are 3 other jumpers for allowing operation with or without PIC and DMAC. Can boot into DOS with suitable BIOS (v2).
+This board is slightly custom. Signals INTAK and INT have been routed through DRQ2 and DACK2 to allow external PIC-board in the BUS, equally HLDA and HOLD have been routed through DRQ3 and DACK3 to allow external DMAC-board in the BUS. These customizations mean that DMA channels 2 and 3 cannot be used normally. The board will boot when RESET jumper is connected being initially disconnected during power-up. There are 3 other jumpers for allowing operation with or without PIC and DMAC. Can boot into DOS with suitable BIOS (v2). Tested with 8 MHz V20.
 
 ![CPU](https://user-images.githubusercontent.com/42321684/147238715-266f36b0-4ccb-42ff-8c7d-9b58b71c59e4.jpg)
 
